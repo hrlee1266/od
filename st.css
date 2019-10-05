@@ -4,10 +4,11 @@ h3 {font-size: 20px ; color:red; text-align:center;}
 h4 {color:blue; margin-block-start: 10px; margin-block-end: 10px;}
 ul {list-style-type: none; padding-left: 10px; margin-block-start: 0em; margin-block-end: 0em; }
 li {font-size: 15px ; display: inline-block ; width: 100px ;}
-.wr {color:black; width: 860px ; font-family:"함초롬바탕"; margin-block-start: 0em; margin-block-end: 0em; margin-inline-start: 5px;}
+.wr {color:black; width: 860px ; font-family:"함초롬바탕"; margin-block-start: 0em; margin-block-end: 0em; margin-inline-start: 5px;  word-break : keep-all ;}
 .smalltitle {color:black; font-family:"HY 견고딕"; font-weight:bolder; }
 .exam {color:orange; text-align:center; }
-.jomuen{  border: 1px solid black;; background-color: yellow ;  font-size: 13px;}
+
+.number {border: 1px solid black;; background-color: yellow ;  font-size: 13px;}
 
 textarea {
   width: 100%;

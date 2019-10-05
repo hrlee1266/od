@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="st.css" type="text/css">   <!-- 공통된 스타일 링크 -->
+  <script src="test.js">  </script>    <!-- test 박스 클릭 -->
+
+</head>
+
+
+
+<body>
+  <input type="button" value="test" onclick="
+testHandler(this);
+  ">
+
+<h3><!-- 학설주제--> </h3>
+<p class="exam"> <!-- 기출표시--> </p>
+
+<h4>문제점</h4>
+<p class="wr">   </p>
+
+<h4>학설</h4>
+  <p class="wr">
+    <span class="smalltitle">  </span>   <br>
+
+  </p>
+
+<h4>판례</h4>
+<p class="wr">
+    <span class="smalltitle"> 실체판결설 : </span>
+    법원이 재정신청서에 재정신청을 이유 있게 하는 사유가 기재되어 있지 않음에도 이를 간과한 채 형사소송법 제262조 제2항 제2호 소정의 공소제기결정을 한 관계로 그에 따른 공소가 제기되어 본안사건의 절차가 개시된 후에는, 다른 특별한 사정이 없는 한 이제 그 본안사건에서 위와 같은 잘못을 다툴 수 없다.
+    그렇지 아니하고 위와 같은 잘못을 본안사건에서 다툴 수 있다고 한다면 이는 재정신청에 대한 결정에 대하여 그것이 기각결정이든 인용결정이든 불복할 수 없도록 한 같은 법 제262조 제4항의 규정취지에 위배하여 형사소송절차의 안정성을 해칠 우려가 있기 때문이다. 또한 위와 같은 잘못은 본안사건에서 공소사실 자체에 대하여 무죄, 면소, 공소기각 등을 할 사유에 해당하는지를 살펴 무죄 등의 판결을 함으로써 그 잘못을 바로잡을 수 있다. 뿐만 아니라 본안사건에서 심리한 결과 범죄사실이 유죄로 인정되는 때에는 이를 처벌하는 것이 오히려 형사소송의 이념인 실체적 정의를 구현하는 데 보다 충실하다는 점도 고려하여야 한다.
+    <br>
+    <script>
+      var judgenumber = ['2009도224',] ;
+    </script>
+    <ul>
+      <script>
+        var i = 0
+        while( i < judgenumber.length){
+          document.write('<li><a href="https://glaw.scourt.go.kr/wsjo/panre/sjo100.do?saNo='+judgenumber[i]+'"target="_blank">'+judgenumber[i]+'</a></li>') ;
+            i = i + 1 ;
+          }
+        </script>
+      </ul>
+  </p>
+
+<h4>검토</h4>
+  <p class="wr">
+    <span class="smalltitle">  </span>
+
+  </p>
+
+<form>
+  <textarea> </textarea>
+</form>
+
+</body>
